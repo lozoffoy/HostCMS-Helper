@@ -21,3 +21,4 @@ $Shop_Producer_Controller_Show
 	)
 	->limit(6)
 	->show();
+	

@@ -24,3 +24,4 @@ $Informationsystem_Controller_Show
 	->group(FALSE) // элементы из всех групп (либо ID группы)
 	->limit(9)
 	->show();
+	

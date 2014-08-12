@@ -12,7 +12,7 @@ $Shop_Controller_Show
 	->xsl(
 		Core_Entity::factory('Xsl')->getByName('СписокКатегорий')
 	)
-	->groupsMode('tree')
+	->groupsMode('tree') // [none, tree, all]
 	->group(0)
 	->limit(0)
 	->show();

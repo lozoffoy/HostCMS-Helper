@@ -22,6 +22,7 @@ $Informationsystem_Controller_Show
 $Informationsystem_Controller_Show
 	->informationsystemItems()
 	->queryBuilder()
+	->where('shortcut_id', '=', '0')
 	->clearOrderBy() // очистить старые настройки сортировки
 	->orderBy('RAND()'); // добавить RAND
 
